@@ -9,11 +9,23 @@
   <a id="google" href="http://www.google.com">website 2</a>
   <a class="my-link" href="http://www.google.com">website 3</a>
   <a class="my-link" href="http://www.google.com">website 4</a>
-  <script>
-    document.getElementById('google').innerHTML="Google";
-    let links = document.getElementsByClassName('my-link');
-    links[0].innerHTML = "Twitter";
-    links[0].href = "http://www.twitter.com";
-  </script>
+<div id="main-text">
+  <h1>HTML and CSS</h1>
+  <button class="my-buttons" type="button">Recent Projects</button>
+  <ul class="projects">
+    <li>HTML for Newark</li>
+    <li>CSS for MISY350</li>
+  </ul>
+
+  <h1>JavaScript</h1>
+  <button class="my-buttons" type="button">Recent Projects</button>
+  <ul class="projects">
+    <li>JavaScript for NYC</li>
+    <li>jQuery for MISY350</li>
+  </ul>
+</div>
+
+  <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="jquery-basics.js"></script>
 </body>
 </html>
